@@ -44,7 +44,7 @@
             header.classList.toggle('shadow-sm', document.documentElement.scrollTop > 0);
         }
     });
-
 </script>
+@yield('scripts')
 </body>
 </html>

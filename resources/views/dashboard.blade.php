@@ -9,12 +9,15 @@
                 <div class="col-xl-5 col-xxl-4 mb-4 mb-xl-0">
                     <script id="_carbonads_js" async="" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAICKJY&amp;placement=coreuiio"></script>
                 </div>
-                <div class="col-xl-7 col-xxl-8"><a class="banner-coreui-pro" href="https://coreui.io/product/bootstrap-dashboard-template/?theme=default">
+                <div class="col-xl-7 col-xxl-8">
+                    <a class="banner-coreui-pro" href="https://coreui.io/product/bootstrap-dashboard-template/?theme=default">
                         <svg class="banner-coreui-pro-logo d-xl-none d-xxl-block" width="100" height="100" alt="CoreUI Logo">
-                            <use xlink:href="assets/brand/coreui.svg#signet"></use>
+                            <use xlink:href="{{ asset('icons/sprites/brand.svg#coreui') }}"></use>
                         </svg>
                         <h4 class="fw-bolder">Elevate Your Design with CoreUI PRO!</h4>
-                        <p>Unlock a world of possibilities: More themes, enhanced components (Date Picker, Multi Select, and more), and priority support.</p></a></div>
+                        <p>Unlock a world of possibilities: More themes, enhanced components (Date Picker, Multi Select, and more), and priority support.</p>
+                    </a>
+                </div>
             </div>
             <div class="row g-4 mb-4">
                 <div class="col-sm-6 col-xl-3">
@@ -22,9 +25,9 @@
                         <div class="card-body pb-0 d-flex justify-content-between align-items-start">
                             <div>
                                 <div class="fs-4 fw-semibold">26K <span class="fs-6 fw-normal">(-12.4%
-                        <svg class="icon">
-                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-bottom') }}"></use>
-                        </svg>)</span></div>
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-bottom') }}"></use>
+                                    </svg>)</span></div>
                                 <div>Users</div>
                             </div>
                             <div class="dropdown">
@@ -33,7 +36,11 @@
                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
@@ -47,9 +54,9 @@
                         <div class="card-body pb-0 d-flex justify-content-between align-items-start">
                             <div>
                                 <div class="fs-4 fw-semibold">$6.200 <span class="fs-6 fw-normal">(40.9%
-                        <svg class="icon">
-                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-top') }}"></use>
-                        </svg>)</span></div>
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-top') }}"></use>
+                                    </svg>)</span></div>
                                 <div>Income</div>
                             </div>
                             <div class="dropdown">
@@ -58,7 +65,11 @@
                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
@@ -72,9 +83,9 @@
                         <div class="card-body pb-0 d-flex justify-content-between align-items-start">
                             <div>
                                 <div class="fs-4 fw-semibold">2.49% <span class="fs-6 fw-normal">(84.7%
-                        <svg class="icon">
-                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-top') }}"></use>
-                        </svg>)</span></div>
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-top') }}"></use>
+                                    </svg>)</span></div>
                                 <div>Conversion Rate</div>
                             </div>
                             <div class="dropdown">
@@ -83,10 +94,14 @@
                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="c-chart-wrapper mt-3" style="height:70px;">
+                        <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
                             <canvas class="chart" id="card-chart3" height="70"></canvas>
                         </div>
                     </div>
@@ -97,9 +112,9 @@
                         <div class="card-body pb-0 d-flex justify-content-between align-items-start">
                             <div>
                                 <div class="fs-4 fw-semibold">44K <span class="fs-6 fw-normal">(-23.6%
-                        <svg class="icon">
-                          <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-bottom') }}"></use>
-                        </svg>)</span></div>
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('icons/sprites/free.svg#cil-arrow-bottom') }}"></use>
+                                    </svg>)</span></div>
                                 <div>Sessions</div>
                             </div>
                             <div class="dropdown">
@@ -108,7 +123,11 @@
                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
@@ -388,7 +407,7 @@
                                     <div class="progress-group">
                                         <div class="progress-group-header">
                                             <svg class="icon icon-lg me-2">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-user"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/free.svg#cil-user') }}"></use>
                                             </svg>
                                             <div>Male</div>
                                             <div class="ms-auto fw-semibold">43%</div>
@@ -402,21 +421,21 @@
                                     <div class="progress-group mb-5">
                                         <div class="progress-group-header">
                                             <svg class="icon icon-lg me-2">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-user-female"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/free.svg#cil-user-female') }}"></use>
                                             </svg>
                                             <div>Female</div>
                                             <div class="ms-auto fw-semibold">37%</div>
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group">
                                         <div class="progress-group-header">
                                             <svg class="icon icon-lg me-2">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/brand.svg#cil-google"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/brand.svg#cil-google') }}"></use>
                                             </svg>
                                             <div>Organic Search</div>
                                             <div class="ms-auto fw-semibold me-2">191.235</div>
@@ -533,7 +552,11 @@
                                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Info</a>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -575,7 +598,11 @@
                                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Info</a>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -603,7 +630,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/brand.svg#cib-cc-stripe"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/brand.svg#cib-cc-stripe') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -617,7 +644,11 @@
                                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Info</a>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -631,7 +662,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/flag.svg#cif-fr"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/flag.svg#cif-fr') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -645,7 +676,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/brand.svg#cib-cc-paypal"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/brand.svg#cib-cc-paypal') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -659,7 +690,11 @@
                                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Info</a>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -673,7 +708,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/flag.svg#cif-es"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/flag.svg#cif-es') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -687,7 +722,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/brand.svg#cib-cc-apple-pay"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/brand.svg#cib-cc-apple-pay') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -701,7 +736,11 @@
                                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Info</a>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -715,7 +754,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/flag.svg#cif-pl"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/flag.svg#cif-pl') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -729,7 +768,7 @@
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="node_modules/@coreui/icons/sprites/brand.svg#cib-cc-amex"></use>
+                                                <use xlink:href="{{ asset('icons/sprites/brand.svg#cib-cc-amex') }}"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -743,7 +782,11 @@
                                                         <use xlink:href="{{ asset('icons/sprites/free.svg#cil-options') }}"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Info</a>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -758,4 +801,7 @@
             <!-- /.row-->
         </div>
     </div>
+@endsection
+
+@section('scripts')
 @endsection
