@@ -13,21 +13,21 @@
     <ul class="sidebar-nav" data-coreui="navigation" data-simplebar>
         <li class="nav-item"><a class="nav-link" href="index.html">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-speedometer"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-speedometer') }}"></use>
                 </svg> Dashboard<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
         <li class="nav-title">Theme</li>
         <li class="nav-item"><a class="nav-link" href="colors.html">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-drop"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-drop') }}"></use>
                 </svg> Colors</a></li>
         <li class="nav-item"><a class="nav-link" href="typography.html">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-pencil"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-pencil') }}"></use>
                 </svg> Typography</a></li>
         <li class="nav-title">Components</li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-puzzle"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-puzzle') }}"></use>
                 </svg> Base</a>
             <ul class="nav-group-items compact">
                 <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Accordion</a></li>
@@ -48,7 +48,7 @@
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-cursor"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-cursor') }}"></use>
                 </svg> Buttons</a>
             <ul class="nav-group-items compact">
                 <li class="nav-item"><a class="nav-link" href="buttons/buttons.html"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Buttons</a></li>
@@ -58,11 +58,11 @@
         </li>
         <li class="nav-item"><a class="nav-link" href="charts.html">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-chart-pie"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-chart-pie') }}"></use>
                 </svg> Charts</a></li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-notes"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-notes') }}"></use>
                 </svg> Forms</a>
             <ul class="nav-group-items compact">
                 <li class="nav-item"><a class="nav-link" href="forms/form-control.html"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Form Control</a></li>
@@ -77,7 +77,7 @@
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-star"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-star') }}"></use>
                 </svg> Icons</a>
             <ul class="nav-group-items compact">
                 <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-free.html"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> CoreUI Icons<span class="badge badge-sm bg-success ms-auto">Free</span></a></li>
@@ -87,7 +87,7 @@
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bell"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-bell') }}"></use>
                 </svg> Notifications</a>
             <ul class="nav-group-items compact">
                 <li class="nav-item"><a class="nav-link" href="notifications/alerts.html"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Alerts</a></li>
@@ -98,40 +98,40 @@
         </li>
         <li class="nav-item"><a class="nav-link" href="widgets.html">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-calculator"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-calculator') }}"></use>
                 </svg> Widgets<span class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
         <li class="nav-divider"></li>
         <li class="nav-title">Extras</li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-star"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-star') }}"></use>
                 </svg> Pages</a>
             <ul class="nav-group-items compact">
                 <li class="nav-item"><a class="nav-link" href="login.html" target="_top">
                         <svg class="nav-icon">
-                            <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-account-logout"></use>
+                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-account-logout') }}"></use>
                         </svg> Login</a></li>
                 <li class="nav-item"><a class="nav-link" href="register.html" target="_top">
                         <svg class="nav-icon">
-                            <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-account-logout"></use>
+                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-account-logout') }}"></use>
                         </svg> Register</a></li>
                 <li class="nav-item"><a class="nav-link" href="404.html" target="_top">
                         <svg class="nav-icon">
-                            <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bug"></use>
+                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-bug') }}"></use>
                         </svg> Error 404</a></li>
                 <li class="nav-item"><a class="nav-link" href="500.html" target="_top">
                         <svg class="nav-icon">
-                            <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-bug"></use>
+                            <use xlink:href="{{ asset('icons/sprites/free.svg#cil-bug') }}"></use>
                         </svg> Error 500</a></li>
             </ul>
         </li>
         <li class="nav-item mt-auto"><a class="nav-link" href="https://coreui.io/docs/templates/installation/" target="_blank">
                 <svg class="nav-icon">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-description"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-description') }}"></use>
                 </svg> Docs</a></li>
         <li class="nav-item"><a class="nav-link text-primary fw-semibold" href="https://coreui.io/product/bootstrap-dashboard-template/" target="_top">
                 <svg class="nav-icon text-primary">
-                    <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-layers"></use>
+                    <use xlink:href="{{ asset('icons/sprites/free.svg#cil-layers') }}"></use>
                 </svg> Try CoreUI PRO</a></li>
     </ul>
     <div class="sidebar-footer border-top d-none d-md-flex">

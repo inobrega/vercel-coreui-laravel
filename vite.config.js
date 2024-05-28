@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import copy from 'rollup-plugin-copy';
 
 export default defineConfig({
     plugins: [
@@ -7,5 +8,10 @@ export default defineConfig({
             input: ['resources/sass/app.scss', 'resources/js/app.js'],
             refresh: true,
         }),
+        copy({
+            targets: [
+                { src: 'node_modules/@coreui/icons/sprites/*', dest: 'public/icons/sprites' }
+            ]
+        })
     ],
 });
