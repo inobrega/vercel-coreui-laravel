@@ -10,7 +10,8 @@ export default defineConfig({
         }),
         copy({
             targets: [
-                { src: 'node_modules/@coreui/icons/sprites/*', dest: 'public/icons/sprites' }
+                { src: 'node_modules/@coreui/icons/sprites/*', dest: 'public/icons/sprites' },
+                { src: 'resources/assets/brand/*', dest: 'public/icons/sprites' }
             ]
         })
     ],

@@ -12,7 +12,7 @@
                 <div class="col-xl-7 col-xxl-8">
                     <a class="banner-coreui-pro" href="https://coreui.io/product/bootstrap-dashboard-template/?theme=default">
                         <svg class="banner-coreui-pro-logo d-xl-none d-xxl-block" width="100" height="100" alt="CoreUI Logo">
-                            <use xlink:href="{{ asset('icons/sprites/brand.svg#coreui') }}"></use>
+                            <use xlink:href="{{ asset('icons/sprites/coreui.svg#signet') }}"></use>
                         </svg>
                         <h4 class="fw-bolder">Elevate Your Design with CoreUI PRO!</h4>
                         <p>Unlock a world of possibilities: More themes, enhanced components (Date Picker, Multi Select, and more), and priority support.</p>
@@ -516,7 +516,9 @@
                                     <tbody>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/1.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                                            <div class="avatar avatar-md">
+                                                <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="user@email.com"><span class="avatar-status bg-success"></span>
+                                            </div>
                                         </td>
                                         <td>
                                             <div class="text-nowrap">Yiorgos Avraamu</div>
