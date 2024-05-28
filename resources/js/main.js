@@ -9,10 +9,8 @@
 
 // Disable the on-canvas tooltip
 Chart.defaults.pointHitDetectionRadius = 1
-Chart.defaults.plugins.tooltip.enabled = false
 Chart.defaults.plugins.tooltip.mode = 'index'
 Chart.defaults.plugins.tooltip.position = 'nearest'
-Chart.defaults.plugins.tooltip.external = coreui.ChartJS.customTooltips
 Chart.defaults.defaultFontColor = coreui.Utils.getStyle('--cui-body-color')
 
 document.documentElement.addEventListener('ColorSchemeChange', () => {

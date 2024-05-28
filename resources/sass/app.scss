@@ -4,6 +4,9 @@
 // Import styles
 @import "@coreui/coreui/scss/coreui";
 
+// Import Charts
+@import "@coreui/chartjs";
+
 // Import icons
 @import "@coreui/icons";
 
@@ -12,6 +15,10 @@
 
 // Custom styles for this theme
 @import "theme";
+
+// Dashboard Default Styles
+@import "ads";
+@import "examples";
 
 // If you want to add custom CSS you can put it here
 @import "custom";

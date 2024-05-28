@@ -34,7 +34,6 @@
 <div class="wrapper d-flex flex-column min-vh-100">
     @include('partials.header')
     @yield('content')
-
     @include('partials.footer')
 </div>
 <script>
@@ -47,6 +46,5 @@
     });
 
 </script>
-<script src="node_modules/chart.js/dist/chart.umd.js"></script>
 </body>
 </html>
